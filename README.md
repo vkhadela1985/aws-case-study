@@ -1,4 +1,5 @@
 # AWS Case Study
+![Alt text](aws_case_study (2).png)
 
 ## Refer below steps:
 
