@@ -41,10 +41,15 @@
 8. To create ECS service, refer https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-service-console-v2.html
 9. You can view the webpage on browser using LoadBalancer endpoint
 
+### Create CodePipeline as part of CICD
+1. Create Codepipeline to automate the application deployment on ECS, Refer https://medium.com/thelorry-product-tech-data/end-to-end-cd-pipeline-amazon-ecs-deployment-using-aws-codepipeline-332b19ca2a9
+
 ### Monitoring Setup
 1. Create a SNS topic https://docs.aws.amazon.com/sns/latest/dg/sns-create-topic.html
 2. Create SNS subscription https://docs.aws.amazon.com/sns/latest/dg/sns-email-notifications.html
-3. Create Cloudwatch Alarms for ECS  
+3. Create Cloudwatch Alarms for ECS https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-metrics.html
+4. Create Cloudwatch Alarms for RDS https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/monitoring-cloudwatch.html
+5. Create Email Notification for CodePipeline https://docs.aws.amazon.com/codepipeline/latest/userguide/notification-rule-create.html
    
 
 
