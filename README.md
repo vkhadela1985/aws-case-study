@@ -4,14 +4,14 @@
 ## Description:
 AWS case study diagram shows a simple architecture for deploying a containerized application using several AWS services. Here’s a concise explanation:
 
-1. *GitHub:* The application code, including the Dockerfile, is stored in a GitHub repository.
-2. *AWS CodePipeline:* Automatically triggered by any code changes in GitHub, CodePipeline builds and deploys the application.
-3. ECR: CodeBuild stage in CodePipeline will build the docker image and push that image into ECR repository and in Deploy stage ECS will refer to that image.
-4. ECS (Elastic Container Service): Runs the Dockerized application inside a private subnet, ensuring the application is isolated from public access.
-5. Amazon RDS: Stores the application's sample database, also within the private subnet, for security and efficiency.
-6. Application Load Balancer (ALB): Deployed in a public subnet, the ALB distributes incoming traffic from the internet to the application running in ECS.
-7. Route 53: A domain is configured in Route 53 to direct traffic to the ALB, providing a user-friendly URL.
-8. Monitoring & Alerts: CloudWatch monitors the infrastructure and Simple Notification Service (SNS) sends alerts to the developer/devops via email in case of issues.
+1. **GitHub:** The application code, including the Dockerfile, is stored in a GitHub repository.
+2. **AWS CodePipeline:** Automatically triggered by any code changes in GitHub, CodePipeline builds and deploys the application.
+3. **ECR:** CodeBuild stage in CodePipeline will build the docker image and push that image into ECR repository and in Deploy stage ECS will refer to that image.
+4. **ECS (Elastic Container Service):** Runs the Dockerized application inside a private subnet, ensuring the application is isolated from public access.
+5. **Amazon RDS:** Stores the application's sample database, also within the private subnet, for security and efficiency.
+6. **Application Load Balancer (ALB):** Deployed in a public subnet, the ALB distributes incoming traffic from the internet to the application running in ECS.
+7. **Route 53:** A domain is configured in Route 53 to direct traffic to the ALB, providing a user-friendly URL.
+8. **Monitoring & Alerts:** CloudWatch monitors the infrastructure and Simple Notification Service (SNS) sends alerts to the developer/devops via email in case of issues.
 
 This architecture supports scalability, security, and continuous integration and deployment (CI/CD).
 
