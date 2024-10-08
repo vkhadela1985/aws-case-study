@@ -68,6 +68,21 @@ This architecture supports scalability, security, and continuous integration and
 5. Create Email Notification for CodePipeline https://docs.aws.amazon.com/codepipeline/latest/userguide/notification-rule-create.html
    
 
+## Projected Cost
+
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Name|Total Cost| | |Metadata| | | | |Groups| | | | | | | | | | | | | | | | | | | | | | | |
+| |monthly|upfront|12 months|Currency|Locale|Created On|Legal Disclaimer|Share Url|Services| | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | |Service Name|Region|Status|Service Cost| | |Properties| | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | |monthly|upfront|12 months|Storage amount|Storage for each RDS instance|Nodes|Instance type|Utilization (On-Demand only)|Deployment option|Pricing strategy|Operating system|CPU Architecture|Average duration|Number of tasks or pods|Amount of ephemeral storage allocated for Amazon ECS|Number of Application Load Balancers|Number of active pipelines of type V1 used per account per month|Requests|EMAIL/EMAIL-JSON Notifications|Number of Metrics (includes detailed and custom metrics)|Number of Standard Resolution Alarm Metrics|
+|AWS Case Study Projected Cost|58.62|0.00|703.44|USD|en_US|08/10/2024|AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.|https://calculator.aws/#/estimate?id=17c68fbf2ffb99ab3dfa94b23bdd37df90dfb866|Amazon RDS for MySQL|US East (N. Virginia)||14.71|0.00|176.52|20 GB|General Purpose SSD (gp3)|1|db.t3.micro|100 %Utilized/Month|Single-AZ|OnDemand| | | | | | | | | | | |
+| | | | | | | | | |AWS Fargate|US East (N. Virginia)||4.44|0.00|53.28| | | | | | | |Linux|x86|15 days|1 per month|20 GB| | | | | | |
+| | | | | | | | | |Application Load Balancer|US East (N. Virginia)||18.47|0.00|221.64| | | | | | | | | | | | |1| | | | | |
+| | | | | | | | | |AWS CodePipeline|US East (N. Virginia)||14.00|0.00|168.00| | | | | | | | | | | | | |15| | | | |
+| | | | | | | | | |Standard topics|US East (N. Virginia)||0.00|0.00|0.00| | | | | | | | | | | | | | |50 per month|50 per month| | |
+| | | | | | | | | |Amazon CloudWatch|US East (N. Virginia)||7.00|0.00|84.00| | | | | | | | | | | | | | | | |20|10|
+ 
 
    
 
