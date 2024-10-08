@@ -67,12 +67,8 @@ This architecture supports scalability, security, and continuous integration and
 4. Create Cloudwatch Alarms for RDS https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/monitoring-cloudwatch.html
 5. Create Email Notification for CodePipeline https://docs.aws.amazon.com/codepipeline/latest/userguide/notification-rule-create.html
    
-
-## Projected Cost
-
-| Name | Total Cost.monthly | Total Cost.upfront | Total Cost.12 months | Metadata.Currency | Metadata.Locale | Metadata.Created On | Metadata.Legal Disclaimer | Metadata.Share Url | Groups.Services |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AWS Case Study Projected Cost | 58.62 | 0.00 | 703.44 | USD | en_US | 08/10/2024 | AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services. | https://calculator.aws/#/estimate?id=17c68fbf2ffb99ab3dfa94b23bdd37df90dfb866 | [{"Service Name":"Amazon RDS for MySQL","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"14.71","upfront":"0.00","12 months":"176.52"},"Properties":{"Storage amount":"20 GB","Storage for each RDS instance":"General Purpose SSD (gp3)","Nodes":"1","Instance type":"db.t3.micro","Utilization (On-Demand only)":"100 %Utilized/Month","Deployment option":"Single-AZ","Pricing strategy":"OnDemand"}},{"Service Name":"AWS Fargate","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"4.44","upfront":"0.00","12 months":"53.28"},"Properties":{"Operating system":"Linux","CPU Architecture":"x86","Average duration":"15 days","Number of tasks or pods":"1 per month","Amount of ephemeral storage allocated for Amazon ECS":"20 GB"}},{"Service Name":"Application Load Balancer","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"18.47","upfront":"0.00","12 months":"221.64"},"Properties":{"Number of Application Load Balancers":"1"}},{"Service Name":"AWS CodePipeline","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"14.00","upfront":"0.00","12 months":"168.00"},"Properties":{"Number of active pipelines of type V1 used per account per month":"15"}},{"Service Name":"Standard topics","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"0.00","upfront":"0.00","12 months":"0.00"},"Properties":{"Requests":"50 per month","EMAIL/EMAIL-JSON Notifications":"50 per month"}},{"Service Name":"Amazon CloudWatch","Region":"US East (N. Virginia)","Status":"","Service Cost":{"monthly":"7.00","upfront":"0.00","12 months":"84.00"},"Properties":{"Number of Metrics (includes detailed and custom metrics)":"20","Number of Standard Resolution Alarm Metrics":"10"}}] |
+## Projected Cost:
+You can see projected cost on link: https://calculator.aws/#/estimate?id=1b9cc59072bdc06536a729b40690c0800f5542ba
  
 
    
