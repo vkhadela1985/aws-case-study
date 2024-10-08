@@ -68,7 +68,8 @@ This architecture supports scalability, security, and continuous integration and
 5. Create Email Notification for CodePipeline https://docs.aws.amazon.com/codepipeline/latest/userguide/notification-rule-create.html
    
 ## Projected Cost:
-You can see projected cost on link: https://calculator.aws/#/estimate?id=1b9cc59072bdc06536a729b40690c0800f5542ba
+The MySQL RDS will be common and shared with everyone. So we will use db.t3.micro DB innstance (Single AZ, 20GB Storage) and it will cost us around $14.71 per month. The rest of the resources will be separate for every developer.
+You can see projected cost for rest of the resources on link: https://calculator.aws/#/estimate?id=1b9cc59072bdc06536a729b40690c0800f5542ba
  
 
    
